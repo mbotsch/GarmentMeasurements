@@ -3,7 +3,7 @@
 #include "Character.h"
 #include "BIM_file.h"
 
-namespace template_fitting {
+namespace character {
 
 bool bim_skeleton_to_skeleton(const bim::BIM_file::BIM_skeleton& bim_skeleton, Skeleton& skeleton)
 {

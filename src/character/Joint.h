@@ -3,7 +3,7 @@
 #include <string>
 #include <pmp/mat_vec.h>
 
-namespace template_fitting {
+namespace character {
 
 class Joint
 {

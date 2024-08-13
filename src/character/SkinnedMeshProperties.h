@@ -1,6 +1,6 @@
 #pragma once
 
-namespace template_fitting {
+namespace character {
 namespace properties {
 
 const static std::string vweights1 = "v:weights1";

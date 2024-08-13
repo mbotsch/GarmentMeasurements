@@ -1,6 +1,6 @@
 #include "Skeleton.h"
 
-namespace template_fitting {
+namespace character {
 
 Skeleton::Skeleton()
 {

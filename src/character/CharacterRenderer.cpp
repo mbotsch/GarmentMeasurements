@@ -9,7 +9,7 @@
 #include "Character_shader.h"
 #include "Skeleton_shader.h"
 
-namespace template_fitting {
+namespace character {
 
 CharacterRenderer::CharacterRenderer(Character& character)
     : character_(character)

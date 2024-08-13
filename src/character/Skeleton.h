@@ -5,9 +5,9 @@
 
 #include "Joint.h"
 
-namespace template_fitting { class Joint; }
+namespace character { class Joint; }
 
-namespace template_fitting
+namespace character
 {
 
 class Skeleton

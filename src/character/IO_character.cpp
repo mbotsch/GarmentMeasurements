@@ -5,7 +5,7 @@
 #include "Character.h"
 #include "FBX_file.h"
 
-namespace template_fitting {
+namespace character {
 
 bool read_fbx(const std::filesystem::path& path, Character* character)
 {

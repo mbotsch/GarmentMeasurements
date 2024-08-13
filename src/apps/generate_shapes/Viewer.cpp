@@ -44,13 +44,13 @@ Viewer::Viewer(const char* title, int width, int height)
 
         character_.only_keep_selected_skin();
 
-        template_fitting::mvc::compute_weights_from_current_joint_positions(&character_);
+        character::mvc::compute_weights_from_current_joint_positions(&character_);
 
         pmp::BoundingBox bbox;
         for (const auto& mesh : character_.meshes()) { bbox += bounds(mesh.mesh_); }
         set_scene(bbox.center(), bbox.size() * 0.5);
 
-        renderer_ = new template_fitting::CharacterRenderer(character_);
+        renderer_ = new character::CharacterRenderer(character_);
         renderer_->update_opengl_buffers();
 
         joint_angles_.resize(3 * character_.skeleton().joints_.size(), 0);
@@ -59,7 +59,7 @@ Viewer::Viewer(const char* title, int width, int height)
         //   narrower legs
         //   no bend at elbow
 
-        template_fitting::Skeleton& skeleton = character_.skeleton();
+        character::Skeleton& skeleton = character_.skeleton();
 
         size_t thigh_L_index = skeleton.get_joint_idx("thigh_L");
         size_t thigh_R_index = skeleton.get_joint_idx("thigh_R");
@@ -103,7 +103,7 @@ void Viewer::draw(const std::string& drawMode)
 
 void Viewer::evaluate_pose()
 {
-    std::vector<template_fitting::Joint*>& joints = character_.skeleton().joints_;
+    std::vector<character::Joint*>& joints = character_.skeleton().joints_;
 
     size_t num_joints = joints.size();
     std::vector<pmp::mat4> pose_vector(num_joints, pmp::mat4::identity());
@@ -129,7 +129,7 @@ void Viewer::evaluate_shape()
 
     Eigen::VectorXd pca_result = pca_.evaluate(pca_.scale_parameters(pca_params));
 
-    template_fitting::SkinnedMesh& mesh = character_.get_selected_skin();
+    character::SkinnedMesh& mesh = character_.get_selected_skin();
     size_t n_vertices = mesh.mesh_.n_vertices();
 
     std::vector<pmp::vec3>& positions = mesh.mesh_.positions();
@@ -160,7 +160,7 @@ void Viewer::sample_shape()
     }
 
     // indices for joint angles
-    template_fitting::Skeleton& skeleton = character_.skeleton();
+    character::Skeleton& skeleton = character_.skeleton();
     size_t upper_arm_L_index = skeleton.get_joint_idx("upper_arm_L");
     size_t upper_arm_R_index = skeleton.get_joint_idx("upper_arm_R");
 
@@ -184,7 +184,7 @@ void Viewer::batch_sample_shapes()
     std::filesystem::create_directory(mesh_dir);
     std::filesystem::create_directory(meta_dir);
 
-    template_fitting::Skeleton& skeleton = character_.skeleton();
+    character::Skeleton& skeleton = character_.skeleton();
     size_t thigh_L_index = skeleton.get_joint_idx("thigh_L");
     size_t thigh_R_index = skeleton.get_joint_idx("thigh_R");
 
@@ -243,7 +243,7 @@ void Viewer::save_mesh(const std::string& filename)
     character_.apply_skinning();
 
     // Store bindpose positions
-    template_fitting::SkinnedMesh result_mesh = character_.get_selected_skin();
+    character::SkinnedMesh result_mesh = character_.get_selected_skin();
     std::vector<pmp::vec3> pos_backup = result_mesh.mesh_.positions();
 
     // Swap bindpose positions with skinned positions
@@ -298,7 +298,7 @@ void Viewer::process_imgui()
 
     if (ImGui::CollapsingHeader("Pose Control"))
     {
-        std::vector<template_fitting::Joint*>& joints = character_.skeleton().joints_;
+        std::vector<character::Joint*>& joints = character_.skeleton().joints_;
         size_t num_joints = joints.size();
 
         bool angles_changed = false;

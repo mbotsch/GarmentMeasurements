@@ -2,7 +2,7 @@
 
 //#include "Dual_quaternion.h"
 
-namespace template_fitting
+namespace character
 {
 
 static pmp::mat4 blend_matrices(const pmp::vec4& w1, const pmp::vec4& w2,

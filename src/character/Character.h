@@ -5,7 +5,7 @@
 #include "SkinnedMesh.h"
 #include "Skeleton.h"
 
-namespace template_fitting {
+namespace character {
 
 class Character
 {

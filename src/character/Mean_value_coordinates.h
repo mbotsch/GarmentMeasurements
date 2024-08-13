@@ -4,9 +4,9 @@
 
 #include "Character.h"
 
-namespace template_fitting { class SkinnedMesh; }
+namespace character { class SkinnedMesh; }
 
-namespace template_fitting {
+namespace character {
 namespace mvc {
 
 void compute_weights(SkinnedMesh* mesh,

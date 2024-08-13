@@ -11,7 +11,7 @@ FBX_WARNINGS_DISABLE_END
 
 #include "Character.h"
 
-namespace template_fitting
+namespace character
 {
 
 class FBX_file

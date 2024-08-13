@@ -7,7 +7,7 @@
 #include <character/Character.h>
 #include <character/PCA.h>
 
-namespace template_fitting { class CharacterRenderer; }
+namespace character { class CharacterRenderer; }
 
 class Viewer : public pmp::TrackballViewer
 {
@@ -28,8 +28,8 @@ private:
 
     void save_mesh(const std::string& filename);
 
-    template_fitting::Character character_;
-    template_fitting::CharacterRenderer* renderer_ = nullptr;
+    character::Character character_;
+    character::CharacterRenderer* renderer_ = nullptr;
 
     PCA pca_;
 

@@ -5,9 +5,9 @@
 #include <pmp/mat_vec.h>
 #include "pmp/visualization/shader.h"
 
-namespace template_fitting { class Character; }
+namespace character { class Character; }
 
-namespace template_fitting {
+namespace character {
 
 class CharacterRenderer
 {

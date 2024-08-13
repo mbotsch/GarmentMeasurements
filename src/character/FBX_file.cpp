@@ -2,7 +2,7 @@
 
 #include "Character.h"
 
-namespace template_fitting
+namespace character
 {
 
 FBX_file::FBX_file()

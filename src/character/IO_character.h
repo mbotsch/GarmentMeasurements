@@ -2,7 +2,7 @@
 
 #include <filesystem>
 
-namespace template_fitting {
+namespace character {
 
 class Character;
 

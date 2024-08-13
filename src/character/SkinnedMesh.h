@@ -4,7 +4,7 @@
 
 #include "SkinnedMeshProperties.h"
 
-namespace template_fitting {
+namespace character {
 
 class SkinnedMesh
 {

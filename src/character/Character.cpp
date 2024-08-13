@@ -4,7 +4,7 @@
 #include "Mean_value_coordinates.h"
 #include "Skinning.h"
 
-namespace template_fitting {
+namespace character {
 
 Character::Character()
     : pipeline_version_("no_version_available")

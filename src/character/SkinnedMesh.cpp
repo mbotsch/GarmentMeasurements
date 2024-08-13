@@ -1,6 +1,6 @@
 #include "SkinnedMesh.h"
 
-namespace template_fitting {
+namespace character {
 
 SkinnedMesh::SkinnedMesh()
     : dirty_(true)

@@ -1,6 +1,6 @@
 #include "Joint.h"
 
-namespace template_fitting {
+namespace character {
 
 Joint::Joint(const std::string& name, pmp::mat4 local)
 {
