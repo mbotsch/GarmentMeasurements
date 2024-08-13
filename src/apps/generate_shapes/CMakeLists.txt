@@ -5,5 +5,5 @@ set(SOURCES Viewer.cpp
 set(HEADERS Viewer.h)
 
 add_executable(generate_shapes ${SOURCES} ${HEADERS})
-target_link_libraries(generate_shapes PUBLIC templatefitting pmp_vis nlohmann_json::nlohmann_json)
+target_link_libraries(generate_shapes PUBLIC character pmp_vis nlohmann_json::nlohmann_json)
 
