@@ -1,0 +1,9 @@
+{
+  "landmarks": [
+    "hips_side_right",
+    "crotch_point"
+  ],
+  "measurement_axis": "Y",
+  "name": "crotch_hip_diff",
+  "type": "LandmarkDistanceAxisAligned"
+}

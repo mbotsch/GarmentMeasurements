@@ -1,0 +1,8 @@
+{
+  "landmarks": [
+    "wrist_right",
+    "shoulder_right"
+  ],
+  "name": "arm_length",
+  "type": "Geodesic"
+}

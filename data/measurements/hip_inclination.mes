@@ -1,0 +1,10 @@
+{
+  "landmarks": ["hips_side_right", "waist_side_right"],
+  "measurement_plane": {
+    "type": "NORMAL_AXIS",
+    "normal_axis": "X"
+  },
+  "name": "hip_inclination",
+  "type": "AxisInclination",
+  "unit": "DEGREES"
+}

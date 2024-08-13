@@ -1,0 +1,9 @@
+{
+  "landmarks": [
+    "bust_left",
+    "bust_right"
+  ],
+  "measurement_axis": "Y",
+  "name": "bust_points",
+  "type": "LandmarkDistance"
+}

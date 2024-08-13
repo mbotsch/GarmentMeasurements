@@ -1,0 +1,102 @@
+{
+  "convex_hull_normal": [0.0, 0.0, 1.0],
+  "convex_hull_normal_deviance_min_cos": -0.4,
+  "halfspaces": [
+    {
+      "axes": [
+        {
+          "landmarks": [
+            "bust_side_left",
+            "bust_side_right"
+          ],
+          "type": "landmarks"
+        },
+        {
+          "axis": "Y",
+          "type": "axis"
+        }
+      ],
+      "origin": "bust_side_left"
+    }
+  ],
+  "is_convex_hull": true,
+  "measurement_plane": {
+    "type": "LANDMARKS",
+    "landmarks": ["bust_side_left", "bust_side_right"],
+    "landmarks_second_axis": "Z",
+    "normal_axis": "Y"
+  },
+  "name": "back_width",
+  "num_face_rings": 6,
+  "selection": [
+    101,
+    18393,
+    12154,
+    12157,
+    12165,
+    15290,
+    12338,
+    12335,
+    19161,
+    12332,
+    19389,
+    12331,
+    19885,
+    12317,
+    12316,
+    18544,
+    12323,
+    20119,
+    12286,
+    20026,
+    12287,
+    12308,
+    12307,
+    12303,
+    12305,
+    19887,
+    15344,
+    15343,
+    19883,
+    15339,
+    15335,
+    15336,
+    16980,
+    18475,
+    172,
+    7857,
+    6362,
+    4718,
+    4717,
+    4721,
+    9265,
+    4725,
+    4726,
+    9269,
+    1687,
+    1685,
+    1689,
+    1690,
+    1669,
+    9408,
+    1668,
+    9501,
+    1705,
+    7926,
+    1698,
+    1699,
+    9267,
+    1713,
+    8771,
+    1714,
+    8543,
+    1717,
+    1720,
+    4672,
+    1547,
+    1539,
+    1536,
+    7775
+  ],
+  "type": "AxisAlignedPlanePart"
+}

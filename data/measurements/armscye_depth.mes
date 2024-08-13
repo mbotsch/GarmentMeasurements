@@ -1,0 +1,9 @@
+{
+  "landmarks": [
+    "shoulder_right",
+    "underarm_right"
+  ],
+  "measurement_axis": "Y",
+  "name": "armscye_depth",
+  "type": "LandmarkDistance"
+}

@@ -1,0 +1,12 @@
+build/
+
+# clion build directories
+cmake-build-debug/
+cmake-build-release/
+
+# intelliJ
+.cache
+.idea
+
+# python
+.venv/

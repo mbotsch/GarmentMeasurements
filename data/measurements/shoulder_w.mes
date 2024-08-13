@@ -1,0 +1,9 @@
+{
+  "landmarks": [
+    "shoulder_left",
+    "shoulder_right"
+  ],
+  "measurement_axis": "Y",
+  "name": "shoulder_w",
+  "type": "LandmarkDistance"
+}

@@ -1,0 +1,9 @@
+{
+  "landmarks": [
+    "bum_left",
+    "bum_right"
+  ],
+  "measurement_axis": "Y",
+  "name": "bum_points",
+  "type": "LandmarkDistance"
+}

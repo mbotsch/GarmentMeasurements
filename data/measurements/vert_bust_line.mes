@@ -1,0 +1,9 @@
+{
+  "landmarks": [
+    "nape_of_neck",
+    "bust_side_right"
+  ],
+  "measurement_axis": "Y",
+  "name": "vert_bust_line",
+  "type": "LandmarkDistanceAxisAligned"
+}

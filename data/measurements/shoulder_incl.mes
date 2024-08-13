@@ -1,0 +1,10 @@
+{
+  "landmarks": ["neck_right", "shoulder_right"],
+  "measurement_plane": {
+    "type": "NORMAL_AXIS",
+    "normal_axis": "-Y"
+  },
+  "name": "shoulder_incl",
+  "type": "AxisInclination",
+  "unit": "DEGREES"
+}

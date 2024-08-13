@@ -1,0 +1,9 @@
+{
+  "landmarks": [
+    "hips_side_right",
+    "waist_side_right"
+  ],
+  "measurement_axis": "Y",
+  "name": "hips_line",
+  "type": "LandmarkDistanceAxisAligned"
+}

@@ -1,0 +1,93 @@
+{
+  "convex_hull_normal_deviance_min_cos": -0.4,
+  "convex_hull_normal": [0.0, 0.5, 1.0],
+  "halfspaces": [
+    {
+      "axes": [
+        {
+          "axis": "Y",
+          "type": "normal"
+        }
+      ],
+      "origin": "mid_waist_back"
+    },
+    {
+      "axes": [
+        {
+          "landmarks": [
+            "shoulder_right",
+            "neck_right"
+          ],
+          "type": "landmarks"
+        },
+        {
+          "axis": "Y",
+          "type": "axis"
+        }
+      ],
+      "origin": "shoulder_right"
+    }
+  ],
+  "is_convex_hull": true,
+  "measurement_plane": {
+    "type": "CENTROID",
+    "normal_axis": "X"
+  },
+  "name": "waist_over_bust_line",
+  "num_face_rings": 6,
+  "selection": [
+    2170,
+    9888,
+    2171,
+    2177,
+    2233,
+    2230,
+    2205,
+    9531,
+    9729,
+    9775,
+    2207,
+    9666,
+    9972,
+    9571,
+    9914,
+    9913,
+    8284,
+    9937,
+    10223,
+    8285,
+    8368,
+    8369,
+    8370,
+    8330,
+    10693,
+    8331,
+    10734,
+    8542,
+    8543,
+    8554,
+    8555,
+    8556,
+    8552,
+    8553,
+    8329,
+    8327,
+    8328,
+    8339,
+    8338,
+    8333,
+    8332,
+    8547,
+    8335,
+    8334,
+    8548,
+    8336,
+    8337,
+    8416,
+    8417,
+    8419,
+    8418,
+    8421
+  ],
+  "type": "AxisAlignedPlanePart"
+}

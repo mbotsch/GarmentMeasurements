@@ -1,0 +1,24 @@
+{
+    "landmarks": {
+        "nape_of_neck": 0,
+        "neck_left": 10939,
+        "neck_right": 9849,
+        "shoulder_left": 21505,
+        "shoulder_right": 2259,
+        "underarm_left": 19972,
+        "underarm_right": 9354,
+        "wrist_right": 6226,
+        "bust_right": 1717,
+        "bust_left": 12335,
+        "bust_side_left": 20026,
+        "bust_side_right": 9408,
+        "waist_side_left": 19958,
+        "waist_side_right": 9340,
+        "mid_waist_back": 210,
+        "hips_side_left": 20794,
+        "hips_side_right": 10176,
+        "bum_left": 15666,
+        "bum_right": 5048,
+        "crotch_point": 236
+    }
+}

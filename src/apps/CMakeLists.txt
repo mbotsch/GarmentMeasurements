@@ -1,0 +1,2 @@
+add_subdirectory(generate_shapes)
+add_subdirectory(measurements)

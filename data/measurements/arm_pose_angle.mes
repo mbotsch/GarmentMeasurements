@@ -1,0 +1,10 @@
+{
+  "landmarks": ["shoulder_right", "wrist_right"],
+  "measurement_plane": {
+    "type": "NORMAL_AXIS",
+    "normal_axis": "-Y"
+  },
+  "name": "arm_pose_angle",
+  "type": "AxisInclination",
+  "unit": "DEGREES"
+}
