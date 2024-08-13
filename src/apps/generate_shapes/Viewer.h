@@ -4,8 +4,8 @@
 #include <pmp/visualization/renderer.h>
 #include <pmp/visualization/trackball_viewer.h>
 
-#include <templatefitting/Character.h>
-#include <templatefitting/PCA.h>
+#include <character/Character.h>
+#include <character/PCA.h>
 
 namespace template_fitting { class CharacterRenderer; }
 

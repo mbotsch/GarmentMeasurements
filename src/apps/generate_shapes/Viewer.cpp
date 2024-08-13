@@ -9,8 +9,8 @@
 #include <pmp/algorithms/utilities.h>
 #include <pmp/io/io.h>
 
-#include <templatefitting/CharacterRenderer.h>
-#include <templatefitting/Mean_value_coordinates.h>
+#include <character/CharacterRenderer.h>
+#include <character/Mean_value_coordinates.h>
 #include <fstream>
 
 using json = nlohmann::json;
