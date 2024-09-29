@@ -2,6 +2,8 @@
 
 Implementation for the shape sampling and measurement part of the paper Korosteleva, Kesdogan, Kemper, Wenninger, Koller, Zhang, Botsch, Sorkine-Hornung "GarmentCodeData: A Dataset of 3D Made-to-Measure Garments With Sewing Patterns".
 
+You can find the garment fitting code [here](https://github.com/maria-korosteleva/GarmentCode). 
+
 ## Getting Started
 
 Clone this repository:
