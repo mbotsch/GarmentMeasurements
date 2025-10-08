@@ -49,7 +49,7 @@ Change PCA parameters as desired and save the skinned mesh. The mesh is saved in
 ## Perform Measurements
 
 ```bash
-./measurements output.obj measurements.yml
+./measurements output.obj measurements.yaml
 ```
 
 
