@@ -43,7 +43,7 @@ find_package(CGAL REQUIRED)
 #target_link_libraries(<Target> CGAL::CGAL)
 
 # nlohmann json
-find_package(nlohmann_json 3.11.0)
+find_package(nlohmann_json 3.12.0)
 
 # argparse
 include(cmake/modules/Argparse.cmake)
@@ -51,7 +51,7 @@ include(cmake/modules/Argparse.cmake)
 if (NOT nlohmann_json_FOUND)
     include(FetchContent)
 
-    FetchContent_Declare(json URL https://github.com/nlohmann/json/releases/download/v3.11.2/json.tar.xz)
+    FetchContent_Declare(json URL https://github.com/nlohmann/json/releases/download/v3.12.0/json.tar.xz)
     FetchContent_MakeAvailable(json)
 endif ()
 
