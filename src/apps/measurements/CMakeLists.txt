@@ -16,6 +16,6 @@ set(SOURCES
 
 target_sources(measurements PUBLIC ${SOURCES} ${HEADERS})
 
-target_link_libraries(measurements PUBLIC pmp io utils CGAL::CGAL argparse)
+target_link_libraries(measurements PUBLIC io utils CGAL::CGAL argparse)
 
 set_target_properties(measurements PROPERTIES COMPILE_WARNINGS_AS_ERRORS ON)
